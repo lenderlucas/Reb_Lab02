@@ -1,0 +1,7 @@
+El método DBSCAN es otro algoritmo popular de clustering utilizado en aprendizaje no supervisado. Aunque DBSCAN y Spectral Clustering son algoritmos diferentes, tienen algunas similitudes y diferencias.
+
+Una de las principales diferencias entre DBSCAN y Spectral Clustering es que DBSCAN es un algoritmo de clustering basado en densidad, mientras que Spectral Clustering es un algoritmo de clustering basado en grafos. DBSCAN busca puntos centrales en las regiones densas de datos y agrupa puntos cercanos en la misma región densa, mientras que Spectral Clustering utiliza la estructura de los eigenvectores y eigenvalores de una matriz de similitud para agrupar los datos.
+
+Sin embargo, hay algunas similitudes entre DBSCAN y Spectral Clustering en términos de cómo se pueden ajustar los parámetros de los algoritmos para obtener una buena agrupación. En particular, ambos algoritmos requieren que se ajuste un parámetro de distancia o de similitud, como el parámetro de distancia en DBSCAN o el parámetro de ancho de banda en Spectral Clustering. La elección de estos parámetros puede influir en la calidad de la agrupación resultante.
+
+En resumen, aunque DBSCAN y Spectral Clustering son algoritmos diferentes con enfoques diferentes para el clustering, tienen algunas similitudes en términos de cómo se pueden ajustar los parámetros para obtener una buena agrupación.
