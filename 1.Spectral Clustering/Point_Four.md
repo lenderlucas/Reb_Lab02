@@ -1,9 +1,7 @@
+## d. Does it hold any relation to some of the concepts previously mentioned in class? Which, and how?
+
 El método de clustering espectral tiene una relación con varios conceptos previamente mencionados en clases de aprendizaje no supervisado y álgebra lineal.
-
 En primer lugar, el método de clustering espectral utiliza la matriz de similitud entre los puntos de datos, lo que se relaciona con la medida de similitud utilizada en otros algoritmos de clustering, como el algoritmo k-means o el algoritmo de clustering jerárquico.
-
 En segundo lugar, el método de clustering espectral utiliza la matriz Laplaciana, que es una matriz que se utiliza en álgebra lineal para describir las propiedades de un grafo. Esta matriz se puede utilizar para calcular la conectividad entre los nodos del grafo, lo que es importante para la agrupación de los datos.
-
 En tercer lugar, el método de clustering espectral utiliza los eigenvectores y eigenvalores de la matriz Laplaciana, que se relacionan con la descomposición espectral y el análisis de componentes principales (PCA). La descomposición espectral es una técnica utilizada en álgebra lineal para descomponer una matriz en sus eigenvectores y eigenvalores, mientras que PCA es una técnica utilizada en estadística para reducir la dimensión de los datos mediante la selección de las componentes principales.
-
 En resumen, el método de clustering espectral tiene relación con varios conceptos previamente mencionados en clases de aprendizaje no supervisado y álgebra lineal, como la medida de similitud, la matriz Laplaciana, la descomposición espectral y el análisis de componentes principales.

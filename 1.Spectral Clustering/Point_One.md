@@ -1,3 +1,4 @@
+## a. In which cases might it be more useful to apply?
 
 El método de agrupamiento espectral (Spectral Clustering) es una técnica de aprendizaje automático que se utiliza para clasificar los datos en diferentes grupos (clusters) en función de sus similitudes. En lugar de agrupar los datos en función de su proximidad espacial, como ocurre en los métodos de clustering tradicionales como k-means, el método de clustering espectral utiliza la información de similitud de los datos para crear grupos.
 
