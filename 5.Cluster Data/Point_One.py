@@ -1,5 +1,6 @@
 from sklearn.datasets import make_blobs
-from sklearn.cluster import KMeans, DBSCAN
+from sklearn.cluster import  DBSCAN
+from unsupervised.kmeans import KMeans
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -7,9 +8,9 @@ import numpy as np
 X, y = make_blobs(n_samples=500, n_features=2, centers=4, cluster_std=1, center_box=(-10.0, 10.0), shuffle=True, random_state=1)
 
 # Perform k-means clustering with 4 clusters
-kmeans = KMeans(n_clusters=4)
+kmeans = KMeans._initialize_centroids(n_clusters=4)
 kmeans.fit(X)
-kmeans_labels = kmeans.predict(X)
+kmeans_labels = KMeans._predict(X)
 
 # Perform DBSCAN clustering with eps=1 and min_samples=5
 dbscan = DBSCAN(eps=1, min_samples=5)

@@ -1,11 +1,9 @@
 import random
-
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-
 from base import BaseEstimator 
-from metrics.distance import euclidean_distance
+from unsupervised.distance import euclidean_distance
 
 random.seed(1111)
 
